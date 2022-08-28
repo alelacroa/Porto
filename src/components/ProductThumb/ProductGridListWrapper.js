@@ -12,9 +12,9 @@ import {
   addToCompare,
   deleteFromCompare
 } from "../../redux/actions/compareActions";
-import ProductGridList from "./ProductGridList";
+import ProductGridFour from "./ProductGridFour";
 
-const ProductGridListWrapper = ({
+const ProductGridWrapperFour = ({
   products,
   bottomSpace,
   addToCart,
@@ -48,7 +48,7 @@ const ProductGridListWrapper = ({
           )[0];
 
           return (
-            <ProductGridList
+            <ProductGridFour
               key={product.id}
               product={product}
               discountedPrice={discountedPrice}
@@ -117,4 +117,4 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(ProductGridListWrapper);
+)(ProductGridWrapperFour);

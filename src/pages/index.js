@@ -43,8 +43,8 @@ const FurnitureTwo = ({ saleProducts, bestSellerProducts }) => {
 const mapStateToProps = (state) => {
   const products = state.productData;
   return {
-    saleProducts: getProducts(products, "furniture", "sale", 8),
-    bestSellerProducts: getProducts(products, "furniture", "popular", 4)
+    saleProducts: getProducts(products, "furniture", "sale", 3),
+    bestSellerProducts: getProducts(products, "furniture", "popular", 8)
   };
 };
 

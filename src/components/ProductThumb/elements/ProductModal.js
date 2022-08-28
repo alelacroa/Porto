@@ -2,52 +2,18 @@ import Link from "next/link";
 import { useState, useEffect, Fragment } from "react";
 import { Modal, Row, Col } from "react-bootstrap";
 import Swiper from "react-id-swiper";
-import { getProductCartQuantity } from "../../../lib/product";
-import { ProductRating } from "../../Product";
 import { BsShield } from "react-icons/bs";
 import { AiOutlineReload } from "react-icons/ai";
 import { GiSwapBag } from "react-icons/gi";
 import {
-  IoLogoFacebook,
-  IoLogoTwitter,
-  IoLogoGoogleplus,
-  IoLogoYoutube,
   IoLogoInstagram
 } from "react-icons/io";
 
 const ProductModal = (props) => {
   const {
     product,
-    discountedprice,
-    productprice,
-    cartitems,
-    wishlistitem,
-    compareitem,
-    addtocart,
-    addtowishlist,
-    deletefromwishlist,
-    addtocompare,
-    deletefromcompare,
-    addtoast
   } = props;
 
-  const [selectedProductColor, setSelectedProductColor] = useState(
-    product.variation ? product.variation[0].color : ""
-  );
-  const [selectedProductSize, setSelectedProductSize] = useState(
-    product.variation ? product.variation[0].size[0].name : ""
-  );
-  const [productStock, setProductStock] = useState(
-    product.variation ? product.variation[0].size[0].stock : product.stock
-  );
-  const [quantityCount, setQuantityCount] = useState(1);
-
-  const productCartQty = getProductCartQuantity(
-    cartitems,
-    product,
-    selectedProductColor,
-    selectedProductSize
-  );
 
   const [gallerySwiper, getGallerySwiper] = useState(null);
   const [thumbnailSwiper, getThumbnailSwiper] = useState(null);
@@ -137,13 +103,13 @@ const ProductModal = (props) => {
               <div className="product-quickview__sort-info space-mb--20">
                 <ul>
                   <li>
-                    <BsShield /> Ver
+                    <BsShield /> Garantia de satisfaccion
                   </li>
                   <li>
-                    <AiOutlineReload /> 30 Days Return Policy
+                    <AiOutlineReload /> Test drive disponible
                   </li>
                   <li>
-                    <GiSwapBag /> Cash on Delivery available
+                    <GiSwapBag /> La mejor atencion
                   </li>
                 </ul>
               </div>

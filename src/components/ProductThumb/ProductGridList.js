@@ -223,6 +223,10 @@ const ProductGridList = ({
                   <span className="price">${productPrice}</span>
                 )}
               </div>
+              <div className="rating-wrap">
+                <ProductRating ratingValue={product.rating} />
+                <span className="rating-num">({product.ratingCount})</span>
+              </div>
             </div>
             <div className="product-description">
               {product.shortDescription}
