@@ -17,13 +17,6 @@ const Navigation = ({ positionClass }) => {
             </a>
           </Link>
         </li>
-        <li className="has-children-mega">
-          <Link href="/shop/grid-left-sidebar">
-            <a className="nav-link">
-              SHOWROOM
-            </a>
-          </Link>
-        </li>
         <li>
           <Link href="/other/contact-us">
             <a className="nav-link">CONTACTO</a>
