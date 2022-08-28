@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "backgroundImage": "/assets/images/hero-slider/four/1.jpg",
+    "subtitle": "Desde $25000",
+    "title": "PORTO PONE AL ALCANCE TU 0KM",
+    "text": "LA CUOTA MAS BAJA DEL MERCADO",
+    "url": "/other/contact-us"
+  },
+  {
+    "id": "2",
+    "backgroundImage": "/assets/images/hero-slider/four/3.jpg",
+    "subtitle": "LLAVE POR LLAVE",
+    "title": "AUTOS 0KM Y USADOS ",
+    "text": "ANTICIPOS FIJOS Y EN PESOS, RETIRO A PARTIR DE LA CUOTA 4",
+    "url": "/other/contact-us"
+  },
+  {
+    "id": "3",
+    "backgroundImage": "/assets/images/hero-slider/four/2.jpg",
+    "subtitle": "DESDE $86000",
+    "title": "RETIRA TU CRONOS",
+    "text": "SISTEMA LLAVE POR LLAVE, FINANCIACION 100%",
+    "url": "/shop/grid-left-sidebar"
+  }
+]
