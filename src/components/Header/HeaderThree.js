@@ -4,6 +4,9 @@ import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
 import Navigation from "./elements/Navigation";
 import MobileMenu from "./elements/MobileMenu";
+import { IoIosSearch, IoIosMenu } from "react-icons/io";
+
+
 
 
 const HeaderThree = ({ cartItems, navPositionClass }) => {
@@ -43,15 +46,33 @@ const HeaderThree = ({ cartItems, navPositionClass }) => {
                   src="/assets/images/logo_light.png"
                   alt="logo"
                 />
-                <img
-                  className="logo-dark"
-                  src="/assets/images/logo_dark.png"
-                  alt="logo"
-                />
               </a>
             </Link>
             {/* navigation */}
             <Navigation positionClass={navPositionClass} />
+                        {/* icons */}
+                        <ul className="header-icons d-flex">
+              <li className="d-none d-lg-block">
+                <button
+                  className="nav-link search-trigger"
+                  onClick={() => {
+                    setOffCanvasSearchActive(true);
+                  }}
+                >
+                </button>
+              </li>
+
+              <li className="d-block d-lg-none">
+                <button
+                  className="nav-link mobile-menu-trigger pr-0"
+                  onClick={() => {
+                    setOffCanvasMobileMenuActive(true);
+                  }}
+                >
+                  <IoIosMenu />
+                </button>
+              </li>
+            </ul>
           </div>
         </Container>
       </div>

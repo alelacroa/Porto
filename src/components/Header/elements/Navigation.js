@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { Col } from "react-bootstrap";
-import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 
 const Navigation = ({ positionClass }) => {
   return (

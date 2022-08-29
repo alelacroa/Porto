@@ -45,11 +45,11 @@ const MobileMenuNav = ({ getActiveStatus }) => {
       <ul>
         <li className="nav-link">
           <Link href="/">
-            <a>Home</a>
+            <a>HOME</a>
           </Link>
         </li>
         <li className="menu-item-has-children">
-          <Link href="/other/contact-u">
+          <Link href="/other/contact-us">
             <a>CONTACTO</a>
           </Link>
         </li>
