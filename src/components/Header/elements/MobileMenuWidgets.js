@@ -1,14 +1,9 @@
 import {
   IoIosPhonePortrait,
   IoMdMail,
-  IoLogoTwitter,
-  IoLogoFacebook,
   IoLogoInstagram,
-  IoLogoPinterest,
-  IoMdPerson
 } from "react-icons/io";
 
-import Link from "next/link";
 
 const MobileMenuWidgets = () => {
   return (
@@ -16,34 +11,19 @@ const MobileMenuWidgets = () => {
       <div className="contact-widget space-mb--30">
         <ul>
           <li>
-            <IoMdPerson />
-            <Link href="/other/login">
-              <a>Login</a>
-            </Link>
-          </li>
-          <li>
             <IoIosPhonePortrait />
-            <a href="tel://12452456012">(1245) 2456 012 </a>
+            <a href="tel:3513966667">3513966667 </a>
           </li>
           <li>
             <IoMdMail />
-            <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+            <a href="mailto:info@yourdomain.com">info@gmail.com</a>
           </li>
         </ul>
       </div>
 
       <div className="social-widget">
-        <a href="https://www.twitter.com" target="_blank">
-          <IoLogoTwitter />
-        </a>
-        <a href="https://www.instagram.com" target="_blank">
+        <a href="https://www.instagram.com/porto.automotores/" target="_blank">
           <IoLogoInstagram />
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-          <IoLogoFacebook />
-        </a>
-        <a href="https://www.pinterest.com" target="_blank">
-          <IoLogoPinterest />
         </a>
       </div>
     </div>
