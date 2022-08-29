@@ -21,7 +21,7 @@ const CountdownOne = ({ title, subtitle, backgroundImage, dateTime, url }) => {
                 <Countdown date={new Date(dateTime)} renderer={RendererTwo} />
               </div>
               <Link href={url}>
-                <a className="btn btn-fill-out-green">WhatsApp</a>
+                <a className="btn btn-fill-out">Contacto</a>
               </Link>
             </div>
           </Col>

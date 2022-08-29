@@ -26,7 +26,7 @@ const FurnitureTwo = ({ saleProducts, bestSellerProducts }) => {
         backgroundImage="/assets/images/banner/furniture_banner3.jpg"
         title="Promoción especial"
         subtitle="Nuevo Plan docente"
-        url="/shop/grid-left-sidebar"
+        url="/other/contact-us"
         dateTime="September 01, 2022 12:12:00"
       />
       {/* product slider */}
