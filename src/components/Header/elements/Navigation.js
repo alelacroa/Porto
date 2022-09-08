@@ -20,6 +20,13 @@ const Navigation = ({ positionClass }) => {
             <a className="nav-link">CONTACTO</a>
           </Link>
         </li>
+        <li>
+          <Link href="/entregas/four-columns">
+            <a className="nav-link">
+              ENTREGAS
+            </a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
