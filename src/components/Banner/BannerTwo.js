@@ -18,12 +18,12 @@ const BannerOne = () => {
             <div className="medium-divider d-none d-md-block clearfix" />
             <div className="trending-text text-center text-md-left">
               <div className="heading-wrapper mb-3">
-                <span>New season trends!</span>
-                <h2>Best Summer Collection</h2>
+                <span>Demo</span>
+                <h2>Demo</h2>
               </div>
-              <h5 className="mb-4">Sale Get up to 50% Off</h5>
+              <h5 className="mb-4">Demo</h5>
               <Link href="/shop/grid-left-sidebar">
-                <a className="btn btn-fill-out rounded-0">Shop Now</a>
+                <a className="btn btn-fill-out rounded-0">Comprar ahora</a>
               </Link>
             </div>
             <div className="medium-divider clearfix" />
