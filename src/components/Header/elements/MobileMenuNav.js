@@ -53,6 +53,11 @@ const MobileMenuNav = ({ getActiveStatus }) => {
             <a>CONTACTO</a>
           </Link>
         </li>
+        <li className="menu-item-has-children">
+          <Link href="/entregas/four-columns">
+            <a>ENTREGAS</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );

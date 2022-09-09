@@ -36,7 +36,7 @@ const BlogSinglePostDefault = () => {
                 <Col md={1}>
                   <ul className="social-icons text-md-right">
                     <li>
-                      <a href="#" className="sc_instagram">
+                      <a href="https://www.instagram.com/porto.automotores/" className="sc_instagram">
                         <FaInstagram />
                       </a>
                     </li>

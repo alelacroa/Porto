@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import { ProductGridWrapperOne } from "../ProductThumb";
+import { ProductGridWrapperFour } from "../ProductThumb";
 
 const ProductTab = ({
   title,
@@ -42,7 +42,7 @@ const ProductTab = ({
           <Tab.Content>
             <Tab.Pane eventKey="new">
               <Row>
-                <ProductGridWrapperOne
+                <ProductGridWrapperFour
                   products={newProducts}
                   bottomSpace="space-mb--30"
                 />
@@ -50,7 +50,7 @@ const ProductTab = ({
             </Tab.Pane>
             <Tab.Pane eventKey="bestSellers">
               <Row>
-                <ProductGridWrapperOne
+                <ProductGridWrapperFour
                   products={bestSellerProducts}
                   bottomSpace="space-mb--30"
                 />
@@ -58,7 +58,7 @@ const ProductTab = ({
             </Tab.Pane>
             <Tab.Pane eventKey="featured">
               <Row>
-                <ProductGridWrapperOne
+                <ProductGridWrapperFour
                   products={featuredProducts}
                   bottomSpace="space-mb--30"
                 />
@@ -66,7 +66,7 @@ const ProductTab = ({
             </Tab.Pane>
             <Tab.Pane eventKey="sale">
               <Row>
-                <ProductGridWrapperOne
+                <ProductGridWrapperFour
                   products={saleProducts}
                   bottomSpace="space-mb--30"
                 />

@@ -1,40 +1,32 @@
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
-const BannerTwo = () => {
+const BannerOne = () => {
   return (
-    <div className="banner-area space-pb--r70">
+    <div className="banner-area bg--blue-two space-pt-mobile-only--60">
       <Container>
-        <Row>
-          <Col md={6}>
-            <div className="single-banner">
+        <Row className="align-items-center flex-row-reverse">
+        <Col md={5}>
+            <div className="text-center trending-img">
               <img
-                src="/assets/images/banner/shop_banner_img1.jpg"
-                alt="shop_banner_img1"
+                src="/assets/images/banner/trending_img.png"
+                alt="trending_img"
               />
-              <div className="single-banner__info">
-                <h5>Super Sale</h5>
-                <h3 className="title">New Collection</h3>
-                <Link href="/shop/grid-left-sidebar">
-                  <a className="link">Shop Now</a>
-                </Link>
-              </div>
             </div>
           </Col>
-          <Col md={6}>
-            <div className="single-banner">
-              <img
-                src="/assets/images/banner/shop_banner_img2.jpg"
-                alt="shop_banner_img1"
-              />
-              <div className="single-banner__info">
-                <h5>New Season</h5>
-                <h3 className="title">Sale 40% Off</h3>
-                <Link href="/shop/grid-left-sidebar">
-                  <a className="link">Shop Now</a>
-                </Link>
+          <Col md={6} className="offset-md-1">
+            <div className="medium-divider d-none d-md-block clearfix" />
+            <div className="trending-text text-center text-md-left">
+              <div className="heading-wrapper mb-3">
+                <span>New season trends!</span>
+                <h2>Best Summer Collection</h2>
               </div>
+              <h5 className="mb-4">Sale Get up to 50% Off</h5>
+              <Link href="/shop/grid-left-sidebar">
+                <a className="btn btn-fill-out rounded-0">Shop Now</a>
+              </Link>
             </div>
+            <div className="medium-divider clearfix" />
           </Col>
         </Row>
       </Container>
@@ -42,4 +34,4 @@ const BannerTwo = () => {
   );
 };
 
-export default BannerTwo;
+export default BannerOne;
